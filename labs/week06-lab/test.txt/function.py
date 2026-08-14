@@ -195,7 +195,7 @@ print("\n=== PART 6: PRACTICAL EXAMPLES ===")
 def calculate_grade(score):
     """Converts numerical score to letter grade"""
     if score >= 90:
-        return "A"
+        return "A" 
     elif score >= 80:
         return "B"
     elif score >= 70:
