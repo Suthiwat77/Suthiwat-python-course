@@ -15,8 +15,7 @@ example"""
 
 print(f"name = {name}")
 print(f"graduate = {graduate}")
-print(f"multiline = {multiline}")
-
+print(f"multiline = {multiline}") 
 # ===========================
 # 2. READING AND CONVERTING
 # ===========================
@@ -63,14 +62,14 @@ message = "hello"
 index = 0
 
 print("Method 1: Using for loop with enumerate")
-for i, char in enumerate(message):
+for i, char in enumerate(message): #enumerate เก็บindex กับ value
     print(f"message[{i}] = {char}")
 
 print("\nMethod 2: Manual indexing")
 index = 0
 for char in message:
     print(f"message[{index}] = {char}")
-    index += 1
+    index =+ 1
 
 # ===========================
 # 5. CONCATENATION AND MULTIPLICATION
@@ -94,9 +93,9 @@ print(f"str1 * 3 = {repeat}")
 
 print("\n=== APPENDING STRINGS ===")
 greeting = 'hello'
-name = input("Enter your name: ")
-greeting += name
-greeting += ". welcome to pune"
+name = input("Enter your name: ") #Talay
+greeting += name #helloTalay
+greeting += ". welcome to pune"#helloTalay. welcome to pune
 print(greeting)
 
 # ===========================
@@ -116,7 +115,7 @@ print(f"{count} letters 'l' found in '{text}'")
 # ===========================
 
 print("\n=== MEMBERSHIP TEST ===")
-print("'a' in 'program':", 'a' in 'program')  # True
+print("'a' in 'program':", 'a' in 'program')  # True()
 print("'at' not in 'battle':", 'at' not in 'battle')  # False
 
 # ===========================
@@ -126,7 +125,7 @@ print("'at' not in 'battle':", 'at' not in 'battle')  # False
 print("\n=== STRING IMMUTABILITY ===")
 str1 = "Hello"
 print(f"str1 is {str1}")
-print(f"id of str1 is {id(str1)}")
+print(f"id of str1 is {id(str1)}") #funtion if ใช้หา
 
 str2 = "world"
 print(f"str2 is {str2}")
@@ -202,31 +201,31 @@ text = "welcome to the world of python"
 
 # Case methods
 print(f"Original: {text}")
-print(f"Upper: {text.upper()}")
-print(f"Lower: {text.lower()}")
-print(f"Title: {text.title()}")
-print(f"Capitalize: {text.capitalize()}")
+print(f"Upper: {text.upper()}") #พิมใหญ่
+print(f"Lower: {text.lower()}") #พิมเล็ก
+print(f"Title: {text.title()}") #ตัวแรกพิมใหญ่
+print(f"Capitalize: {text.capitalize()}") #ตัวอักษรแรกของทุกคำพิมใหญ่
 
 # Search methods
-print(f"Find 'world': {text.find('world')}")
-print(f"Count 'o': {text.count('o')}")
-print(f"Starts with 'welcome': {text.startswith('welcome')}")
-print(f"Ends with 'python': {text.endswith('python')}")
+print(f"Find 'world': {text.find('world')}") #returnกลับมาเป็นเลขindexของคำ (15)
+print(f"Count 'o': {text.count('o')}") #จำนวนตัวอักษร
+print(f"Starts with 'welcome': {text.startswith('welcome')}") #ขึ้นต้นด้วย welcomeไหม returnเป็นtrue false
+print(f"Ends with 'python': {text.endswith('python')}") #ตัวท้ายเป็น python ไหม returnเป็นtrue false
 
 # Modification methods
-print(f"Replace 'python' with 'java': {text.replace('python', 'java')}")
-words = text.split()
+print(f"Replace 'python' with 'java': {text.replace('python', 'java')}")#แทนที่pythoneเป็นjava(แก้ค่าไปเลย)
+words = text.split() #แยกคำเป็นlist
 print(f"Split into words: {words}")
-print(f"Join with '-': {'-'.join(words)}")
+print(f"Join with '-': {'-'.join(words)}")#การใช้ข้อความใน' 'คั่นข้อความแทนวรรค
 
 # Validation methods
 test_str = "Hello123"
 print(f"\nValidation methods for '{test_str}':")
-print(f"isalnum(): {test_str.isalnum()}")
-print(f"isalpha(): {test_str.isalpha()}")
-print(f"isdigit(): {test_str.isdigit()}")
-print(f"isupper(): {test_str.isupper()}")
-print(f"islower(): {test_str.islower()}")
+print(f"isalnum(): {test_str.isalnum()}")#ถามว่าข้อความเป็นตัวเลขกัขตัวอักษรหรือไม่ true or false(t)
+print(f"isalpha(): {test_str.isalpha()}")#ถามว่าข้อความทุกตัวเป็นตัวอักษรไหม
+print(f"isdigit(): {test_str.isdigit()}")#ถามว่าข้อความทุกตัวเป็นตัวเลขไหม
+print(f"isupper(): {test_str.isupper()}")#ถามว่าข้อความทุกตัวเป็นตัวใหญ่ไหม
+print(f"islower(): {test_str.islower()}")#ถามว่าข้อความทุกตัวเป็นตัวเล็กไหม
 
 # ===========================
 # 13. ORD() AND CHR() FUNCTIONS
