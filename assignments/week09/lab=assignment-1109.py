@@ -48,7 +48,8 @@ while True :
     if user ==2 :
         print("ออกจากโปรแกรม ")
         break
-    calculate_electrivity_cost(user)
+
+    calculate_electrivity_cost(user) 
     
 
 
