@@ -18,14 +18,14 @@ class Animal:
 # Child class (Derived class)
 class Dog(Animal):
     def __init__(self, name, breed):
-        super().__init__(name, "Canine")  # Call parent constructor
+        super().__init__(name, "Canine")  # Call parent constructor 
         self.breed = breed
     
-    # Method overriding
+    # Method overriding คือการแก้
     def make_sound(self):
         print(f"{self.name} barks: Woof!")
     
-    # New method specific to Dog
+    # New method specific to Dog การเพิ่ม
     def fetch(self):
         print(f"{self.name} is fetching the ball")
 
