@@ -22,6 +22,7 @@ Highest: 28 C
 Lowest: 19 C
 
 """
+<<<<<<< HEAD
 
 
 def get_temeratures():
@@ -51,3 +52,6 @@ print(display_analysis(rusult))
 
 
 
+=======
+    
+>>>>>>> upstream/main

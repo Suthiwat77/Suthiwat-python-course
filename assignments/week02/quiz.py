@@ -12,7 +12,11 @@ Shows BMI category based on the ranges below
 BMI Categories:
 
 Below 18.5: Underweight
+<<<<<<< HEAD
 18.6 - 24.9: Normal weight
+=======
+18.5 - 24.9: Normal weight
+>>>>>>> upstream/main
 25.0 - 29.9: Overweight
 30.0 and above: Obese
 

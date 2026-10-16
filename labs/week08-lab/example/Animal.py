@@ -18,6 +18,7 @@ class Animal:
 # Child class (Derived class)
 class Dog(Animal):
     def __init__(self, name, breed):
+<<<<<<< HEAD
         super().__init__(name, "Canine")  # Call parent constructor 
         self.breed = breed
     
@@ -26,6 +27,16 @@ class Dog(Animal):
         print(f"{self.name} barks: Woof!")
     
     # New method specific to Dog การเพิ่ม
+=======
+        super().__init__(name, "Canine")  # Call parent constructor
+        self.breed = breed
+    
+    # Method overriding
+    def make_sound(self):
+        print(f"{self.name} barks: Woof!")
+    
+    # New method specific to Dog
+>>>>>>> upstream/main
     def fetch(self):
         print(f"{self.name} is fetching the ball")
 

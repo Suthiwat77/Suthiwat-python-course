@@ -1,6 +1,9 @@
 *.DS_Store
+<<<<<<< HEAD
 
 .gitignore
 testpython/test.py
 
 assignment/assignment2.1.py
+=======
+>>>>>>> upstream/main

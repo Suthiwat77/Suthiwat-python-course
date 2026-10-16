@@ -8,7 +8,11 @@ Create a Personal Information Validator program that:
     Uses appropriate string methods for validation
     Displays formatted output with proper string formatting
     
+<<<<<<< HEAD
     USE: isalpha(), isdigit(), isspace() ,upper(), string formatting with % or .format()
+=======
+    USE: isalpha(), isdigit(), upper(), string formatting with % or .format()
+>>>>>>> upstream/main
     
 Example Result
 
@@ -27,6 +31,7 @@ Name: JOHN DOE
 Age Group: Young Adult (18-30)
 Phone: +91-9876543210
 
+<<<<<<< HEAD
 """
 
 print("=== PERSONAL INFORMATION VALIDATOR ===")
@@ -72,3 +77,6 @@ if check_name and check_age and check_phone:
     print("name:",name.upper())
     print("age:",age)
     print("phone",phone)
+=======
+"""
+>>>>>>> upstream/main

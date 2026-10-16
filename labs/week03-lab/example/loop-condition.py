@@ -9,9 +9,12 @@
 # demo_for_basic.py
 print("=== Demo 1: Basic For Loop ===")
 
+<<<<<<< HEAD
 # range(ตั้งแต่0-....)
 # range(ตั้งแต่.... , ถึง ...-1)
 
+=======
+>>>>>>> upstream/main
 # Loop ผ่านตัวเลข
 print("นับจาก 1 ถึง 5:")
 for i in range(1, 6):
